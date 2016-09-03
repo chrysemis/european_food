@@ -1,0 +1,86 @@
+body {
+		text-align: center;
+		letter-spacing: 0.04em;
+		font-family: Dekko;
+ }
+
+.navbar {
+    font-size: 1.3em;
+   	padding: 0.7em;
+	background: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-nav {
+	text-transform: uppercase;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+	color: black;
+}
+
+.navbar-brand {
+	font-family: Arima Madurai;
+	font-size: 1.4em;
+}
+  
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    background: white;
+	border: 1px solid pink;
+	border-radius: 15px;
+}
+
+.dropdown-menu {
+  position: relative;
+  left: 50%;
+  text-align: center;
+}
+
+#content {
+	text-align: center;
+	width: 100%;
+	padding: 50px 0 150px;
+	margin-top: 80px; 
+	font-size: 1.2em;
+}
+	
+figure {
+	max-width: 350px;
+	max-height: 400px;
+	margin: 0 auto;
+	border: 1px solid #eeeeee;
+	}
+
+figcaption {
+	text-align: center;
+	text-transform: uppercase;
+	padding: 10px;
+	margin-bottom: 10px;
+	font-size: 1.6em;
+}
+
+img {
+	width: 100%;
+}
+
+.about-section {
+	padding: 0 50px;
+}
+
+ul, ol {
+	list-style-position: inside;
+}
+ 
+footer {
+ 		font-size: 90%;
+		text-align: center;
+		padding: 20px 0;
+ 		width: 100%;
+		position: fixed;
+		bottom: 0; left: 0; 
+		background: white;
+}
