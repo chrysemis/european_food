@@ -1,0 +1,1 @@
+European food blog based on PHP. 
