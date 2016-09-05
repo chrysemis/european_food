@@ -1,4 +1,7 @@
 <?php 
+include("connection.php");
+
+/*
 $recipes = [];
 $recipes[101] = [
 	"title" => "Caraway Bread",
@@ -36,7 +39,7 @@ $recipes[201] =	[
 		"Wash salad.",
         "Mix with all else.",
         "Serve."
-	]
+	]	
 ];
 $recipes[202] =	[
 	"title" => "Just Tomatoes",
@@ -76,4 +79,4 @@ $recipes[301] =	[
         "Serve with cream.",
 	]
 ];
-?>
+*/

@@ -1,16 +1,13 @@
 <?php 
 
-include("inc/data.php");
 include("inc/functions.php");
 
 if (isset($_GET["id"])) {
-	$id = $_GET["id"];
-	if (isset($recipes[$id])) {
-		$item = $recipes[$id];
-	}
+	$id = filter_input(INPUT_GET, "id", FILTER_SANITIZE_NUMBER_INT);
+	$item = single_recipe_array($id);
 }
 
-if (!isset($item)) {
+if (empty($item)) {
 	//redirection to all recipes
 	header("location:recipes.php");
 	exit;

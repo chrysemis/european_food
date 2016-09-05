@@ -1,7 +1,7 @@
 <?php 
 
-include("inc/data.php");
 include("inc/functions.php");
+$recipes = all_recipes_array();
 
 $pageTitle = "All Recipes";
 $section = null;
@@ -32,7 +32,7 @@ echo $pageTitle; ?></h1>
  		<?php 
  		$categories = array_category($recipes, $section);
  		foreach ($categories as $id) {
- 			echo get_recipe_html($id, $recipes[$id]);
+ 			echo get_recipe_html($recipes[$id]);
  		}
  		?>
 	 </div> <!-- row -->

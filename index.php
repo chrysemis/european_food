@@ -1,5 +1,4 @@
 <?php 
-include("inc/data.php");
 include("inc/functions.php");
 
 $pageTitle = "European Cuisine";
@@ -10,9 +9,9 @@ include("inc/header.php");
 <div class="container-fluid">
 	<div class="row">
 		<?php 
-		$random = array_rand($recipes, 3);
- 		foreach ($random as $id) {
- 			echo get_recipe_html($id, $recipes[$id]);
+		$random = random_recipes_array();
+ 		foreach ($random as $recipe) {
+ 			echo get_recipe_html($recipe);
  		};
  		?>
  	</div> <!-- row -->
