@@ -16,6 +16,7 @@ include("inc/header.php");
  		?>
  	</div> <!-- row -->
 </div> <!--container-fluid-->
+
 <div class="about-section">
 	<a href="about"></a>
 	<p>I'm an expat currently living in England who recently discovered amazing world of coding and website development.</p>

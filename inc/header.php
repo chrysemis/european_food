@@ -22,7 +22,8 @@
 						</button>
 						<a class="navbar-brand" href="#">European Cuisine</a>
 					</div> <!--navbar-header-->
-					<div class="collapse navbar-collapse" id="myNavbar">
+					<div class="search">
+						<div class="collapse navbar-collapse" id="myNavbar">
 						<ul class="nav navbar-nav navbar-right">
 							<li class="active"><a href="index.php">Home</a></li>
 								 <li class="dropdown">
@@ -37,9 +38,17 @@
 							<li><a href="ingredients-list.php">Ingredients</a></li>
 							<li><a href="#about">About</a></li> 
 						</ul>
+					 </div>
 					</div> <!--navbar-collapse-->
 				</div> <!--cont-fluid-->
 			</nav>
 		</div>
-					
+			
 		<div id="content"> 
+		<div class="search">	
+			<form method="get" action="recipes.php">
+				<label for="s">Search:</label>
+				<input type="text" size="15" name="s" id="s" />
+				<input type="submit" value="go" />
+			</form>	
+		</div>
